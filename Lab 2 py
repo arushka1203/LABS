@@ -1,19 +1,19 @@
- #1
+#1
  
 number = int(input())
 
-   thousands = number // 1000
-  hundreds = (number // 100) % 10
- tens = (number // 10) % 10
- units = number % 10
+thousands = number // 1000
+hundreds = (number // 100) % 10
+tens = (number // 10) % 10
+units = number % 10
 
- if thousands + units == abs(tens - hundreds):
+if thousands + units == abs(tens - hundreds):
      print("YES")
- else:
+else:
      print("NO") 
  
 #2
- age = int(input("Возраст: "))
+age = int(input("Возраст: "))
 if age >= 18:
     print("Доступ разрешен")
 else:
@@ -21,7 +21,7 @@ else:
 
 #3
 
- a = int(input())
+a = int(input())
 b = int(input())
 c = int(input())
 
@@ -33,7 +33,7 @@ else:
 
 
   #4
- x1 = int(input())
+x1 = int(input())
 y1 = int(input())
 x2 = int(input())
 y2 = int(input())
@@ -46,7 +46,7 @@ else:
  
  #5
 
- y1 = int(input())
+y1 = int(input())
 y2 = int(input())
 x2 = int(input())
 y2 = int(input())
@@ -59,7 +59,7 @@ else:
 
  #6
 
- a = int(input())
+a = int(input())
 b = int(input())
 c = int(input())
 
@@ -103,7 +103,7 @@ print(days)
 
 
  #8
- weight = int(input())
+weight = int(input())
 category = ""
 
 if weight <= 60:
@@ -123,46 +123,46 @@ print(category)
 
  #9
 
- password = input()
- confirmation = input()
+password = input()
+confirmation = input()
 
- if password == confirmation:
+if password == confirmation:
      print("Password accepted")
- else:
+else:
      print("Password not accepted")
 
 
 
  #10
- number = int(input("Enter an integer: "))
+number = int(input("Enter an integer: "))
 
- if number % 2 == 0:
+if number % 2 == 0:
      print("Even")
- else:
+else:
      print("Odd")
     
 
 
  #11
 
- num1 = int(input("Enter the first integer: "))
- num2 = int(input("Enter the second integer: "))
+num1 = int(input("Enter the first integer: "))
+num2 = int(input("Enter the second integer: "))
 
- if num1 < num2:
+if num1 < num2:
      smallest = num1
- else:
+else:
      smallest = num2
 
- print("The smallest number is:", smallest)
+print("The smallest number is:", smallest)
 
 
  #12
- age = int(input("Enter your age: "))
+age = int(input("Enter your age: "))
 
 
- if age <= 13:
+if age <= 13:
      age_group = "childhood"
- else:
+else:
      if age <= 24:
          age_group = "youth"
      else:
@@ -171,7 +171,7 @@ print(category)
          else:
              age_group = "old age"
 
- print("You belong to the age group:", age_group)
+print("You belong to the age group:", age_group)
 
 
 
