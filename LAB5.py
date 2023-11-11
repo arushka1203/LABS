@@ -52,7 +52,7 @@ submission_check = {
     student["name"]: len(student["assignment"]) + len(student["test"]) + len(student["lab"])
 }
 print(submission_check)
-
+2.3
 print(f"\nTask 2.3")
 if submission_check[student["name"]] >= 4:
     student["final_grade"] = 0.3 * sum(student["assignment"]) + 0.2 * sum(student["test"]) + 0.5 * sum(student["lab"])
